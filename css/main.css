@@ -115,6 +115,24 @@ body {
   background-color: #3c4446;
 }
 
+.btn-myport {
+  transition: all 0.3s ease-in;
+}
+
+.btn-contact-me {
+  transition: all 0.3s ease-in;
+}
+
+.btn-myport:hover {
+  background-color: var(--secondary-accent) !important;
+  color: white !important;
+}
+
+.btn-contact-me:hover {
+  background-color: var(--secondary-accent) !important;
+  color: white !important;
+}
+
 h5 {
   font-size: 15px;
   letter-spacing: 2px;
