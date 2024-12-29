@@ -18,7 +18,7 @@
   --color-dots: #1a1a1a;
 }
 
-/* Common styles */
+/* MARK: Common styles */
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -145,7 +145,7 @@ h5 {
   color: var(--white-color);
 }
 
-/* Header */
+/* MARK: Header */
 .header {
   z-index: 100;
   background-color: transparent;
@@ -223,7 +223,7 @@ h5 {
   font-weight: 600;
 }
 
-/* Hero section */
+/* MARK: Hero section */
 .hero {
   position: relative;
   padding-top: 18rem;
@@ -297,7 +297,7 @@ h5 {
   filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(305deg) brightness(97%) contrast(103%);
 }
 
-/* About section */
+/* MARK: About section */
 .about {
   padding: 10rem 0;
 }
@@ -403,7 +403,7 @@ h5 {
   color: var(--gray-text-color);
 }
 
-/* Works */
+/* MARK: Works */
 .projects {
   padding: 10rem 0;
   background-color: var(--primary-bg-color);
@@ -509,7 +509,30 @@ h5 {
   text-align: left;
 }
 
-/* Contact */
+/* MARK: Certification section */
+.certification {
+  padding: 10rem 0;
+}
+
+/* MARK: Hobbies section */
+.hobbies {
+  padding: 10rem 0;
+}
+
+.card-hobbies {
+  overflow: hidden;
+}
+
+.hobbies-img {
+  max-height: 250px;
+}
+
+.hobbies-img:hover {
+  transform: scale(1.1);
+  transition: all 2s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+}
+
+/* MARK: Contact */
 .contact {
   padding: 10rem 0;
   text-align: center;
@@ -554,7 +577,7 @@ h5 {
   resize: none;
 }
 
-/* Contact me */
+/* MARK: Contact me */
 .contact {
   padding: 10rem 0;
   background-color: var(--primary-bg-color);
@@ -641,7 +664,7 @@ h5 {
   transition: all 0.3s;
 }
 
-/* Preloader with jumping dots */
+/* MARK: Preloader with jumping dots */
 #preloader {
   position: fixed;
   display: flex;
