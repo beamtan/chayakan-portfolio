@@ -46,9 +46,9 @@ body {
   text-align: center;
 }
 
-.btn {
+.btn-custom {
   display: inline-block;
-  /* height: 5.2rem; */
+  height: 5.2rem;
   font-weight: 500;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -67,15 +67,15 @@ body {
   transition: all 0.3s ease-in;
 }
 
-.btn:hover,
-.btn:focus {
+.btn-custom:hover,
+.btn-custom:focus {
   background-color: var(--secondary-accent);
   border-color: var(--secondary-accent);
   color: var(--white-color);
   outline: 0;
 }
 
-.btn:active {
+.btn-custom:active {
   background-color: #8b4a48;
 }
 
@@ -113,24 +113,6 @@ body {
 
 .btn-red:active {
   background-color: #3c4446;
-}
-
-.btn-myport {
-  transition: all 0.3s ease-in;
-}
-
-.btn-contact-me {
-  transition: all 0.3s ease-in;
-}
-
-.btn-myport:hover {
-  background-color: var(--secondary-accent) !important;
-  color: white !important;
-}
-
-.btn-contact-me:hover {
-  background-color: var(--secondary-accent) !important;
-  color: white !important;
 }
 
 h5 {
@@ -524,7 +506,7 @@ h5 {
 }
 
 .hobbies-img {
-  max-height: 250px;
+  height: 100%;
 }
 
 .hobbies-img:hover {
