@@ -55,6 +55,10 @@
   .contact {
     padding: 8rem 0;
   }
+
+  .skill-icon-section {
+    top: 6rem;
+  }
 }
 
 @media (max-width: 977px) {
@@ -184,6 +188,10 @@
   .projects-title,
   .contact-title {
     margin-bottom: 3rem;
+  }
+
+  .skill-icon-section {
+    top: 5rem;
   }
 }
 
